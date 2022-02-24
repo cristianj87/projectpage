@@ -1,0 +1,75 @@
+:root {
+    --main-color: #4fa2f0;
+    --main-modal-color: rgba(18, 86, 233, 0.507);
+    --second-color: #2B2B2B;
+    --second-modal-color: rgba(14, 114, 245, 0.5);
+}
+html {
+color: var(--second-color);
+background-color: var(--main-modal-color);
+}
+
+body{
+background-image: url(contacto.jpg);
+background-size: 100vm 100vh;
+background-attachment: fixed;
+margin:0;
+font-family: monospace;
+width: 100%
+}
+form {
+	/*ancho*/
+	width: 450px;
+	/*centrado*/
+	margin: auto;
+	/*rojo,verde,azul,transparencia*/
+	background: rgba(0,0,0,0.24);
+	/*relleno (vertical, horizontal)*/
+	padding: 10px 20px;
+	box-sizing: border-box;
+	/*ancho del argen superior*/
+	margin-top: 20px;
+	/*redondes del border*/
+	border-radius: 7px;
+}
+h1{
+	color: #fff;
+	text-align: center;
+	margin:0;
+	/*Tamanño de fuente*/
+	font-size: 30px;
+	/*espaciado entre la etiqueta y el formulario*/
+	margin-bottom: 20px;
+}
+input{
+	width:100%;
+	/*espaciado entre caja de texto*/
+	margin-bottom: 20px;
+	padding: 7px;
+	border: 1px solid rgb(13, 14, 13);
+	box-sizing: border-box;
+	font-size: 20px;
+	
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+#boton{
+	background: #0c84f5;
+	color: #fff;
+	padding: 10px;
+}
+#boton:hover{
+	cursor:pointer;
+}
+
+/*estilos condicionales*/
+@media (max-width:480px){
+	form{
+		width: 100%;
+	}
+}
+	

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Resgistro de usuario</h1>
+    <form action="envio.php" method="get">
+<p> 
+    Nombre<input type="text" name="nombre" autofocus="autofocus" required><br>
+    Apellido 1 <input type="text" name="apellido2" required><br>
+    Apellido 2 <input type="text" name="apellido1" required><br>
+    Edad <input type="number" name="edad" required><br>
+    Telefono <input type="tel" name="telefono" maxlength="10" placeholder="lada+numero" required><br>
+    correo <input type="mail" name="correo" placeholder="corre@dominio.com" required><br>
+</p>
+<p>
+ <input type="submit" value="Enviar">
+ <input type="reset" value="Borrar">
+</p> 
+</form>
+</body>
+</html>
